@@ -21,7 +21,7 @@ from profile import ProfileView
 from pokemon import berries, ingredients
 from LonelyIsMe import Account, Friends
 
-print(f'{colors.Red}Team TN developed this code with தமிழ் (this code is at development). {colors.reset}')
+print(f'{colors.Red}Team TN developed this coding with தமிழ் (this code is at development). {colors.reset}')
 affirm()
 clear()
 
@@ -118,7 +118,7 @@ Level {db['EeveeLv']} {db['PokemonName']}'s HP: {db['EeveeHP']}
            
 Money: {db['Money']}$     
 
-(1) Look for Pokemon 
+(1) Look for Pokemon jolilly
 (2) Explore {db['AreaName2']}
 (3) Open Inventory  
 (4) Tutorial   
@@ -228,7 +228,7 @@ your last manual save by 100%\033[0m
                     if db['EeveeHP'] < (db['EeveeLv'] * 3):
                         db['EeveeHP'] = db['EeveeLv'] * 3
                         print(
-                            f"Your {db['PokemonName']} was healed to full health! "
+                            f"Your {db['PokemonName']} was healed and came to a form! "
                         )
                         Up = db['EeveeHP'] / 100
                         Up = Up * db['Upg'][1]
@@ -256,12 +256,12 @@ your last manual save by 100%\033[0m
                     db['EeveeHP'] += Up
                     db['EeveeHP'] = round(db['EeveeHP'])
                     print(
-                        f"Your {db['PokemonName']} was healed to full health! "
+                        f"Your {db['PokemonName']} was healed and  came to a form! "
                     )
 
                 elif db['EeveeHP'] < (db['EeveeLv'] * 3):
                     print(
-                        f"Your {db['PokemonName']} was healed to full health! "
+                        f"Your {db['PokemonName']} was healed and came a form! "
                     )
                     db['EeveeHP'] = db['EeveeLv'] * 3
                     affirm()
@@ -273,7 +273,7 @@ your last manual save by 100%\033[0m
                 else:
 
                     print(
-                        f"Your {db['PokemonName']} is already at full health!")
+                        f"Your {db['PokemonName']} is already at a form to battle!")
                     affirm()
                     clear()
 
@@ -294,7 +294,7 @@ your last manual save by 100%\033[0m
                     db['GreatBalls'] += 100
             elif input1 == '6':
 
-                print("Welcome to the Pokestore! ")
+                print("Welcome to the Pokestore of class XI B! ")
                 print('')
                 print("Here is our current stock: ")
                 print(
@@ -666,7 +666,7 @@ your last manual save by 100%\033[0m
                         return "Heal"
 
                 '''
-        notes: (IcemasterEric)
+        notes: (Team tn)
         fix heal (later)
         '''
                 clear()
@@ -690,7 +690,7 @@ your last manual save by 100%\033[0m
                 bright_white = "\033[0;97m"
                 darken = "\033[2m"
                 print(
-                    f"{Blue}IcemasterEric:{reset} Welcome to {Blue}Jurassic World Online{reset}, {username}\n"
+                    f"{Blue}Raju Gandhi sir:{reset} Welcome to {Blue}Jurassic World Online{reset}, {username}\n"
                 )
                 time.sleep(1)
                 pokejwo = json.loads(
@@ -1219,7 +1219,7 @@ if not 'LOL' in db.keys():
     )
     print('')
     print(
-        f"This program was created by S1lveredPrism, {Fore.LIGHTBLUE_EX}HyperAlternative, IcemasterEric,  {Fore.BLUE}IMeanBusiness, {Fore.RED}C{Fore.LIGHTYELLOW_EX}o{Style.DIM + Fore.LIGHTGREEN_EX}lor{Style.BRIGHT + Fore.CYAN}ed{Style.DIM + Fore.BLUE}Hue,{Fore.RESET + Style.RESET_ALL} and {Style.DIM + Fore.BLUE}ColinKirsch! "
+        f"This program was created by Team TN, {Fore.LIGHTBLUE_EX}Bala Krishnan , Bhuvanesh,  {Fore.BLUE}Mohamed Irfan, {Fore.RED}C{Fore.LIGHTYELLOW_EX}o{Style.DIM + Fore.LIGHTGREEN_EX}lor{Style.BRIGHT + Fore.CYAN}ed{Style.DIM + Fore.BLUE}Hue,{Fore.RESET + Style.RESET_ALL} and {Style.DIM + Fore.BLUE}Kevin! "
     )
     print(Fore.RESET + Style.RESET_ALL + Back.RESET)
     print(
@@ -1231,7 +1231,7 @@ if not 'LOL' in db.keys():
       Game()
 else:
     print(
-        f"This program was created by S1lveredPrism, {Fore.LIGHTBLUE_EX}HyperAlternative, IcemasterEric, {Fore.BLUE}IMeanBusiness,  {Fore.RED}C{Fore.LIGHTYELLOW_EX}o{Style.DIM + Fore.LIGHTGREEN_EX}lor{Style.BRIGHT + Fore.CYAN}ed{Style.DIM + Fore.BLUE}Hue,{Fore.RESET + Style.RESET_ALL} {Style.DIM + Fore.BLUE}ColinKirsch{Fore.RESET + Style.RESET_ALL}, and {Fore.BLUE}IcemasterEric{Fore.RESET}! "
+        f"This program was created by Team TN, {Fore.LIGHTBLUE_EX}Bala Krishnan, Bhuvanesh, {Fore.BLUE} Mohamed Irfan,  {Fore.RED}C{Fore.LIGHTYELLOW_EX}o{Style.DIM + Fore.LIGHTGREEN_EX}lor{Style.BRIGHT + Fore.CYAN}ed{Style.DIM + Fore.BLUE}Hue,{Fore.RESET + Style.RESET_ALL} {Style.DIM + Fore.BLUE}Kevin{Fore.RESET + Style.RESET_ALL}, and {Fore.BLUE}TN{Fore.RESET}! "
     )
     print(Fore.RESET + Style.RESET_ALL + Back.RESET)
     print(
